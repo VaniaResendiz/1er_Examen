@@ -31,8 +31,8 @@ En Windows, abrir PowerShell y ejecutar:
 ```powershell
 git clone URL_DEL_REPOSITORIO sensores-industriales
 cd sensores-industriales
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 python analisis.py
 ```

@@ -1,0 +1,1 @@
+# Este proyecto no requiere paquetes externos; usa la biblioteca estándar de Python.
